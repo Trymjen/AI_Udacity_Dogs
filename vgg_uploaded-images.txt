@@ -3,5 +3,9 @@ Command Line Arguments:
     arch = vgg 
  dogfile = dognames.txt
 
-Pet Image Label Dictionary has 0 key-value pairs.
-Below are 0 of them:
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Dog_01.jpg  label:                        dog
+ 2 key:                     Dog_02.jpg  label:                        dog
+ 3 key:                     Car_01.jpg  label:                        car
+ 4 key:              Polar_bear_01.jpg  label:                 polar bear
