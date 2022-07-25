@@ -1,4 +1,4 @@
-# AI_Udacity_Dogs
+# Udacity_AI_Recognize_Images
 
 Udacity project for recognize dog breeds by the picture. 
 
