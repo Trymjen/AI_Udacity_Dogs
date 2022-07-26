@@ -63,8 +63,9 @@ def adjust_results4_isadog(results_dic, dogfile):
 
     dognames_dic = {}
 
-    with open(dogfile, "r") as file:
+    with open(dogfile) as file:
         line = file.readline()
+
         while line != "":
             line = line.strip()
 

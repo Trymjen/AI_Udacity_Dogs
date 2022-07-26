@@ -36,10 +36,10 @@ def get_input_args():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--dir', type=str, default='pet_images/', help='path to the folder that contains the images; default is pet_images')
+    parser.add_argument('--dir', type=str, default='pet_images/', help='path to folder of images')
 
-    parser.add_argument('--arch', type=str, default='vgg', help='CNN model to use for image classification; default is vgg')
+    parser.add_argument('--arch', type=str, default='vgg', help='CNN model to use on images. Default: vgg model.')
 
-    parser.add_argument('--dogfile', type=str, default='dognames.txt', help='file that contains all labels associated to dogs;default is dognames.txt')
+    parser.add_argument('--dogfile', type=str, default='dognames.txt', help='file with all labels to dogs. Default: dognames.txt')
 
     return parser.parse_args()
