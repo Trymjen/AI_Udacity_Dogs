@@ -64,13 +64,8 @@ def calculates_results_stats(results_dic):
                      on how to calculate the counts and statistics.
     """        
 
-    results_stats_dic = {}
-
-    results_stats_dic['n_dogs_img'] = 0
-    results_stats_dic['n_match'] = 0
-    results_stats_dic['n_correct_dogs'] = 0
-    results_stats_dic['n_correct_notdogs'] = 0
-    results_stats_dic['n_correct_breed'] = 0       
+    results_stats_dic = {'n_dogs_img': 0, 'n_match': 0, 'n_correct_dogs': 0, 'n_correct_notdogs': 0,
+                         'n_correct_breed': 0}
 
     for key in results_dic:
 
@@ -86,11 +81,8 @@ def calculates_results_stats(results_dic):
             if results_dic[key][4] == 1:
                 results_stats_dic['n_correct_dogs'] += 1
 
-        else:
-
-            if results_dic[key][4] == 0:
-                results_stats_dic['n_correct_notdogs'] += 1
-
+        elif results_dic[key][4] == 0:
+            results_stats_dic['n_correct_notdogs'] += 1
 
     results_stats_dic['n_images'] = len(results_dic)
     results_stats_dic['n_notdogs_img'] = (results_stats_dic['n_images'] - results_stats_dic['n_dogs_img'])

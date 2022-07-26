@@ -83,10 +83,8 @@ def adjust_results4_isadog(results_dic, dogfile):
             else:
                 results_dic[key].extend((1, 0))
 
+        elif results_dic[key][1] in dognames_dic:
+            results_dic[key].extend((0, 1))
+
         else:
-
-            if results_dic[key][1] in dognames_dic:
-                results_dic[key].extend((0, 1))
-
-            else:
-                results_dic[key].extend((0, 0))
+            results_dic[key].extend((0, 0))
