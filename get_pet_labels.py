@@ -40,7 +40,7 @@ def get_pet_labels(image_dir):
 
     results_dic = {}
 
-    for idx in range(len(files), 1):
+    for idx in range(len(files)):
 
         if files[idx][0] != ".":
             pet_image = files[idx].lower().split("_")

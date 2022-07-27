@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7083005-af0e-4994-ab97-c58c691d4a45" name="Changes" comment="cleaning code">
+    <list default="true" id="d7083005-af0e-4994-ab97-c58c691d4a45" name="Changes" comment="include pet_images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexnet_uploaded-images.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alexnet_uploaded-images.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resnet_uploaded-images.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resnet_uploaded-images.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vgg_uploaded-images.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vgg_uploaded-images.txt" afterDir="false" />
@@ -34,6 +35,35 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration name="check_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udacity_AI_Recognize_Images" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.check_images" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +74,9 @@
       <updated>1658828896135</updated>
       <workItem from="1658828897396" duration="10000" />
       <workItem from="1658828952954" duration="1303000" />
-      <workItem from="1658842878374" duration="308000" />
+      <workItem from="1658842878374" duration="733000" />
+      <workItem from="1658850070385" duration="2110000" />
+      <workItem from="1658915576236" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="cleaning code">
       <created>1658828985216</created>
@@ -53,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658828985216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="include pet_images">
+      <created>1658843261488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658843261488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cleaning code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaning code" />
+    <MESSAGE value="include pet_images" />
+    <option name="LAST_COMMIT_MESSAGE" value="include pet_images" />
   </component>
 </project>
