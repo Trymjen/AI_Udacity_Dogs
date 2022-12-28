@@ -1,11 +1,6 @@
-# Udacity_AI_Recognize_Images
+# Udacity AI Recognize Images: Dog Breed Classification
 
-Udacity project for recognize dog breeds by a picture. 
+This project uses three different deep learning models (alexnet, vgg, resnet) to classify dog breeds from images. The goal is to determine which model performs the best on the task.
 
-Uses 3 different models: alexnet, vgg, resnet.
-
-Finding out whitch's the best.
-
-Testing with a random image of a dog, same imgae but upside down, bear image and car image.
-
-Template code(hints) from Udacity with my version applied. 
+## Credits
+This project was completed as part of the Udacity AI Programming with Python Nanodegree. Template code and hints were provided by Udacity, but the implementation and analysis were completed by [your name].
